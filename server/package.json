@@ -1,0 +1,31 @@
+{
+  "name": "bluejay_base_app",
+  "version": "1.0.0",
+  "description": "base app for cse112",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluejay112/bluejay_base_app"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "cookie-parser": "^1.3.3",
+    "errorhandler": "^1.3.2",
+    "express": "^4.11.0",
+    "express-session": "^1.10.1",
+    "jade": "^1.9.1",
+    "mongoose": "^3.8.21",
+    "morgan": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
